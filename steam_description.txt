@@ -1,0 +1,55 @@
+[h1]AvatARK 2[/h1]
+
+Control the elements with AvatARK 2! Inspired by the world of [i]Avatar: The Last Airbender[/i] and based off of my previous mod "AvatARK", this mod aims to revamp bending in ARK to rebalance the abilities and change how they work in a way that will hopefully fit better with the base game experience.
+
+[h1]FAQ (Please Read!)[/h1]
+
+[list]
+	[*][b]This mod is still in development.[/b] I will continue working on this mod for the foreseeable future to add more abilities and rebalance things as needed. Currently, this mod only has a few basic core abilities for each of the four elements, but more will be added. You can follow my progress on Trello here: [url=https://trello.com/b/PUsVanmx/avatark-2]https://trello.com/b/PUsVanmx/avatark-2[/url]
+	[*][b]This mod is different.[/b] The previous AvatARK mod was rather overpowered. There were many aspects of the mod that unbalanced the game and made it far too easy to quickly become such a powerful bender that the base ARK game was no longer a challenge. AvatARK 2 aims to add more of a system of progression that will give the player access to more advanced abilities as they progress. Some of these systems are still in research and development.
+	[*][b]This mod focuses on bending only.[/b] I won't be adding creatures, weapons, or armor to this mod. I'm going to focus on just bending.
+	[*][b]Magic Core is required to use this mod.[/b] I pulled most of the basic logic for the magic system out of the mod and put it in a separate mod called Magic Core, which you can find here: [url=https://steamcommunity.com/workshop/filedetails/?id=1737967069]https://steamcommunity.com/workshop/filedetails/?id=1737967069[/url]. This has made it easier to develop and manage the various bending abilities.
+[/list]
+
+[h1]Basic Instructions[/h1]
+
+In AvatARK 2, bending abilities are represented with items that you carry in your inventory. These abilities can be placed on your hotbar and used like any other item in ARK. To pick an element, craft one of the bending teas that are available as engrams. To remove bending, craft mercury and drink it.
+
+Due to how many abilities there will be and the possibility of the abilities taking up all of your hotbar slots, I [b][u]highly recommend[/u][/b] using my Hotbar Swapper mod, which was created in part with AvatARK 2 in mind: [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1778549631]https://steamcommunity.com/sharedfiles/filedetails/?id=1778549631[/url]
+
+[b]Server owners:[/b] There is an Avatar tea included which gives players all abilities for all elements, but by default is only craftable at level 100. I recommend disabling this engram for RP servers. Eventually I hope to have a mechanism for auto-selecting players to be the Avatar. 
+
+[h1]Hotkeys[/h1]
+
+AvatARK 2 supports various hotkeys, but they are not set up by default. The following hotkeys are supported:
+
+[b]AvatARK_ToggleAbilityVisibility[/b] - Hides bending abilities in your inventory to keep things clean and make it easier to find your other items.
+[b]AvatARK_ToggleBendingMode[/b] - Toggles "bending mode", which enables the use of the following hotkeys:
+[b]AvatARK_Ability1 - 10[/b] - There are 10 of these hotkeys, starting with "1" and ending with "10". These activate bending abilities in their corresponding hotbar slots.
+
+This is a basic hotkey setup that I have enjoyed using:
+
+[code]
+ActionMappings=(ActionName="AvatARK_ToggleBendingMode",Key=B,bShift=False,bCtrl=True,bAlt=False,bCmd=False)
+ActionMappings=(ActionName="AvatARK_ToggleAbilityVisibility",Key=V,bShift=False,bCtrl=True,bAlt=False,bCmd=False)
+ActionMappings=(ActionName="AvatARK_Ability1",Key=LeftMouseButton,bShift=False,bCtrl=False,bAlt=False,bCmd=False)
+ActionMappings=(ActionName="AvatARK_Ability2",Key=RightMouseButton,bShift=False,bCtrl=False,bAlt=False,bCmd=False)
+ActionMappings=(ActionName="AvatARK_Ability3",Key=MiddleMouseButton,bShift=False,bCtrl=False,bAlt=False,bCmd=False)
+ActionMappings=(ActionName="AvatARK_Ability4",Key=Q,bShift=False,bCtrl=False,bAlt=False,bCmd=False)
+ActionMappings=(ActionName="AvatARK_Ability5",Key=E,bShift=False,bCtrl=False,bAlt=False,bCmd=False)
+ActionMappings=(ActionName="AvatARK_Ability6",Key=R,bShift=False,bCtrl=False,bAlt=False,bCmd=False)
+ActionMappings=(ActionName="AvatARK_Ability7",Key=F,bShift=False,bCtrl=False,bAlt=False,bCmd=False)
+ActionMappings=(ActionName="AvatARK_Ability8",Key=Z,bShift=False,bCtrl=False,bAlt=False,bCmd=False)
+ActionMappings=(ActionName="AvatARK_Ability9",Key=X,bShift=False,bCtrl=False,bAlt=False,bCmd=False)
+ActionMappings=(ActionName="AvatARK_Ability10",Key=V,bShift=False,bCtrl=False,bAlt=False,bCmd=False)
+[/code]
+
+To use these, copy the text block above and paste it at the bottom of your "Input.ini" file, located by default at:
+
+[code]
+C:\Program Files (x86)\Steam\steamapps\common\ARK\ShooterGame\Saved\Config\WindowsNoEditor\Input.ini
+[/code]
+
+[h1]Enjoy![/h1]
+
+I hope you enjoy the mod! I'll respond to comments when I can, but might not respond to certain questions if those questions have to do with server management (since those can be answered elsewhere) or if the answer is already available above.
