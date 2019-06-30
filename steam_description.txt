@@ -15,6 +15,10 @@ Control the elements with AvatARK 2! Inspired by the world of [i]Avatar: The Las
 
 In AvatARK 2, bending abilities are represented with items that you carry in your inventory. These abilities can be placed on your hotbar and used like any other item in ARK. To pick an element, craft one of the bending teas that are available as engrams. To remove bending, craft mercury and drink it.
 
+There is no more chi in AvatARK 2. Using bending abilities now directly drains your stamina.
+
+[b]Server owners:[/b] I recommend increasing food and water depletion times since the extra stamina usage will cause food and water to run out faster.
+
 Due to how many abilities there will be and the possibility of the abilities taking up all of your hotbar slots, I [b][u]highly recommend[/u][/b] using my Hotbar Swapper mod, which was created in part with AvatARK 2 in mind: [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1778549631]https://steamcommunity.com/sharedfiles/filedetails/?id=1778549631[/url]
 
 [b]Server owners:[/b] There is an Avatar tea included which gives players all abilities for all elements, but by default is only craftable at level 100. I recommend disabling this engram for RP servers. Eventually I hope to have a mechanism for auto-selecting players to be the Avatar. 
